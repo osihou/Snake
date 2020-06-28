@@ -7,7 +7,6 @@ public class SnakeGame extends JPanel implements Runnable {
 
 
     public Point spoint;
-    public int n = 6;
     public boolean gameover = false;
 
     public int a = 0;

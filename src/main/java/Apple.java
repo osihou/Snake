@@ -28,12 +28,6 @@ public class Apple {
         appleY = random.nextInt(33)+8;
     }
 
-    public boolean atLocation(int x, int y){
-        if((x == appleX) && (y == appleY)){
-            return true;
-        } else return false;
-    }
-
     public int getAppleX() {
         return appleX;
     }
